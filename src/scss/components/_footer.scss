@@ -1,0 +1,53 @@
+// This Source Code Form is subject to the terms of the Mozilla Public
+// License, v. 2.0. If a copy of the MPL was not distributed with this
+// file, You can obtain one at http://mozilla.org/MPL/2.0/.
+
+@import '../includes/lib';
+
+
+#footer {
+    @include font-size(18px);
+    @include white-links;
+    background-color: #000;
+    color: #FFF;
+    margin: 20px 0 0;
+    padding-top: 1.25em;
+
+    p {
+        @include font-size(18px);
+    }
+
+    li {
+        margin-top: 10px;
+
+        &:first-child {
+            margin-top: 0;
+        }
+    }
+
+    @media #{$mq-phone-wide} {
+        ul {
+            display: flex;
+            margin-bottom: 0;
+        }
+
+        li {
+            margin-top: 0;
+            padding-right: 20px;
+
+            &:after {
+                @include font-size(24px);
+                content: '·';
+                display: inline-block;
+                line-height: 1px;
+                padding-left: 20px;
+                text-align: center;
+                width: 2px;
+            }
+
+            &:last-child:after {
+                display: none;
+            }
+        }
+    }
+}

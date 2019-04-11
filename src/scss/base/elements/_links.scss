@@ -1,0 +1,38 @@
+// This Source Code Form is subject to the terms of the Mozilla Public
+// License, v. 2.0. If a copy of the MPL was not distributed with this
+// file, You can obtain one at http://mozilla.org/MPL/2.0/.
+
+@import '../../includes/lib';
+
+
+a {
+    color: $color-link;
+    font-weight: bold;
+    text-decoration: none;
+
+    &:hover,
+    &:focus,
+    &:visited:hover,
+    &:visited:focus,
+    &:visited:active {
+        color: $color-link;
+        text-decoration: underline;
+        transition: color 0.2s ease;
+    }
+
+    &:visited {
+        color: desaturate($color-link, 20%);
+    }
+
+    &:focus,
+    &:visited:focus {
+        background-color: #00ff00;
+        color: $color-text-primary;
+    }
+
+    &:active,
+    &:visited:active {
+        background-color: transparent;
+        color: #f808f8;
+    }
+}

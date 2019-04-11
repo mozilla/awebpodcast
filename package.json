@@ -1,0 +1,23 @@
+{
+  "name": "IRLPodcast",
+  "version": "2.0.0",
+  "description": "IRL: Because Online Life Is Real Life",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mozilla/irlpodcast"
+  },
+  "author": "Mozilla",
+  "license": "MPL",
+  "devDependencies": {
+    "del": "^3.0.0",
+    "gulp": "^4.0.0",
+    "gulp-eslint": "^5.0.0",
+    "gulp-hash": "^4.2.2",
+    "gulp-if": "^2.0.2",
+    "gulp-minify": "^3.1.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-stylelint": "^8.0.0",
+    "stylelint": "^9.10.1",
+    "yargs": "^13.2.1"
+  }
+}

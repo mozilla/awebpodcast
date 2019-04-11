@@ -1,0 +1,7 @@
+.DS_Store
+.vscode
+data/
+node_modules/
+public/
+static/css
+static/js
