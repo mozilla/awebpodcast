@@ -5,8 +5,7 @@
 @import '../includes/lib';
 
 #newsletter-wrapper {
-    @include at2x('/images/newsletter-bg.png');
-    @include background-size(1256px 515px);
+    background-color: #000;
     background-position: top left;
     color: #fff;
     padding: 30px 20px;

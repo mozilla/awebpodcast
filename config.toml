@@ -1,5 +1,5 @@
-title = "IRL Podcast: Online Life is Real Life"
-email = "irlpodcast@mozilla.com"
+title = "[a:web]: Der einzige Podcast übers Web, den du brauchst"
+email = "awebpodcast@mozilla.com"
 buildFuture = true
 [params]
-    description = "Manoush Zomorodi explores real stories of life online – and real talk about how we can all keep the Internet healthy, weird and wonderful. IRL is an original podcast from Mozilla."
+    description = "In dem unabhängigen Podcast [a:web] nehmen die Moderatorinnen Anja und Alice euch mit auf eine spannende Entdeckungsreise durch das Internet. Verständlich für alle und nie langweilig. [a:web] ist ein Podcast von Firefox, dem Browser der auf deiner Seite ist. Firefox fights for you!"
