@@ -1,4 +1,4 @@
 ---
 season: 1
-url: /season1/
+url: /staffel1/
 ---

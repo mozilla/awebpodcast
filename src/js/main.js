@@ -25,10 +25,10 @@
 
         if ($target.hasClass('episode-subscribe-link')) {
             modalContentElem = $target.data('subscribeLinks');
-            modalTitle = 'Subscribe';
+            modalTitle = 'Abonnieren';
         } else if ($target.hasClass('episode-share-link')) {
             modalContentElem = $target.data('shareLinks');
-            modalTitle = 'Share';
+            modalTitle = 'Teilen';
         }
 
         // mp3 link also exists in this list - that link should have no special handling

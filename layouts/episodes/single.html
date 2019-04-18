@@ -8,7 +8,7 @@
 
             {{ if isset .Params "shownotes" }}
             <section class="episode-notes">
-                <h2 id="show-notes">Show Notes</h2>
+                <h2 id="show-notes">Weiteres Material zur Sendung</h2>
 
                 {{/*
                     'replace' below is to ensure correct local link across local, dev, and prod URLs.
@@ -19,7 +19,7 @@
             {{ end }}
 
             <section class="episode-transcript">
-                <h2 id="transcript">Transcript</h2>
+                <h2 id="transcript">Transkript</h2>
 
                 <p>{{ .Params.Transcript | markdownify }}</p>
             </section>
@@ -27,14 +27,14 @@
             <aside class="next">
                 {{ with .NextInSection }}
                     <div class="next-next">
-                        <span>Next episode</span>
+                        <span>Nächste Folge</span>
                         <a class="next-next-link" href="{{ .Permalink }}">{{ .Title }}</a>
                     </div>
                 {{ end }}
 
                 {{ with .PrevInSection }}
                     <div class="next-prev">
-                        <span>Previous episode</span>
+                        <span>Vorherige Folge</span>
                         <a class="next-prev-link" href="{{ .Permalink }}">{{ .Title }}</a>
                     </div>
                 {{ end }}

@@ -1,20 +1,15 @@
 {{/* Set some variables based on if its a episode/bonus/trailer */}}
 {{/* This will need updating if we go above 9 seasons or episodes */}}
-{{ if in .Params.seasonepisode "B" }}
-    {{/* Bonus episode */}}
-    {{ $.Scratch.Set "episodeNumber" (printf "Bonus Episode") }}
-    {{ $.Scratch.Set "imageFolder" (printf "S0%sB0%s" (string .Params.season) (strings.TrimPrefix "B" .Params.seasonepisode) ) }}
-{{ else if eq (string .Params.seasonepisode) (string "0") }}
+{{ if eq (string .Params.seasonepisode) (string "0") }}
     {{/* Episode 0 are trailers */}}
-    {{ $.Scratch.Set "episodeNumber" (printf "Season %s Trailer" (string .Params.season) ) }}
+    {{ $.Scratch.Set "episodeNumber" (printf "Trailer Staffel %s " (string .Params.season) ) }}
     {{ $.Scratch.Set "imageFolder" (printf "S0%sE0%s" (string .Params.season) (string .Params.seasonepisode) ) }}
 {{ else }}
     {{/* Regular episode */}}
-    {{ $.Scratch.Set "episodeNumber" (printf "Season %s Ep. %s" (string .Params.season) (string .Params.seasonepisode)) }}
+    {{ $.Scratch.Set "episodeNumber" (printf "Staffel %s Folge %s" (string .Params.season) (string .Params.seasonepisode)) }}
     {{ $.Scratch.Set "imageFolder" (printf "S0%sE0%s" (string .Params.season) (string .Params.seasonepisode) ) }}
 {{ end }}
 
-{{ $.Scratch.Set "host" (printf "w/ @Mozilla & @%s" (string .Params.host)) }}
 {{ $.Scratch.Set "imagePath" (printf "episodes/%s/artwork.png" (.Scratch.Get "imageFolder")) }}
 {{ $.Scratch.Set "imagePathHighRes" (replace (.Scratch.Get "imagePath") ".png" "-high-res.png") }}
 {{ $.Scratch.Set "itunesTracking" (printf "episode%s" (string .Params.number)) }}
@@ -40,22 +35,21 @@
     </a>
 
     <ul class="episode-links">
-        <li class="episode-view-list"><a href="{{ printf "%s#subscribe-links-primary" .Permalink }}" class="episode-subscribe-link" data-subscribe-links="episode-{{ .Params.number }}-subscribe-links">Subscribe</a></li>
-        <li class="episode-link-share"><a href="#" class="episode-share-link" data-share-links="episode-{{ .Params.number }}-share-links">Share</a></li>
-        <li><a href="{{ .Params.mp3 }}" class="episode-download-link" rel="external noopener noreferrer">MP3</a></li>
+        <li class="episode-view-list"><a href="{{ printf "%s#subscribe-links-primary" .Permalink }}" class="episode-subscribe-link" data-subscribe-links="episode-{{ .Params.number }}-subscribe-links">Abonnieren</a></li>
+        <li class="episode-link-share"><a href="#" class="episode-share-link" data-share-links="episode-{{ .Params.number }}-share-links">Teilen</a></li>
     </ul>
 
     <div class="episode-player">
         <div class="episode-player-wrapper">
-            <iframe title="Listen to {{ .Title }}." class="lazy-load" frameborder="0" height="200px" scrolling="no" seamless src="" data-src="https://embed.simplecast.com/{{ .Params.embed }}?color=f5f5f5" width="100%"></iframe>
+            <iframe title="Jetzt {{ .Title }} hören." class="lazy-load" frameborder="0" height="200px" scrolling="no" seamless src="" data-src="https://hearthis.at/embed/{{ .Params.embed }}/transparent_black/?hcolor=&color=&style=2&block_size=2&block_space=1&background=1&waveform=0&cover=0&autoplay=0&css=" width="100%"></iframe>
             <noscript>
-                <iframe title="Listen to {{ .Title }}." frameborder="0" height="200px" scrolling="no" seamless src="https://embed.simplecast.com/{{ .Params.embed }}?color=f5f5f5" width="100%"></iframe>
+                <iframe title="Jetzt {{ .Title }} hören." frameborder="0" height="200px" scrolling="no" seamless src="https://hearthis.at/embed/{{ .Params.embed }}/transparent_black/?hcolor=&color=&style=2&block_size=2&block_space=1&background=1&waveform=0&cover=0&autoplay=0&css=" width="100%"></iframe>
             </noscript>
         </div>
     </div>
 
     <section class="subscribe-links-wrapper episode-view-single">
-        <h4>Subscribe:</h4>
+        <h4>Abonnieren:</h4>
 
         {{ partial "subscribe-links.html" (dict "itunesTracking" (.Scratch.Get "itunesTracking") "rpTracking" (.Scratch.Get "rpTracking") "title" .Title) }}
     </section>
@@ -64,7 +58,7 @@
         <p>
             {{ .Params.description | markdownify }}
             {{ if .Params.showNotes }}
-                <a href="{{ printf "%s#show-notes" .Permalink }}" class="episode-shownotes-link episode-view-list">Show Notes</a>
+                <a href="{{ printf "%s#show-notes" .Permalink }}" class="episode-shownotes-link episode-view-list">Weiteres Material zur Sendung</a>
             {{ end }}
         </p>
     </div>
@@ -73,7 +67,7 @@
     <div class="modal-content-wrapper episode-view-list">
         <div class="episode-subscribe-links" id="episode-{{ .Params.number }}-subscribe-links">
             <p class="modal-copy">
-                Subscribe to IRL. Because online life is real life.
+                Abonniere [a:web] - Den einzigen Podcast übers Web, den du brauchst
             </p>
 
             {{ partial "subscribe-links.html" (dict "itunesTracking" (.Scratch.Get "itunesTracking") "rpTracking" (.Scratch.Get "rpTracking") "title" .Title) }}
@@ -88,7 +82,7 @@
 
             <aside class="social-share-links" data-episode-title="{{ .Title | default "" }}">
                 <ul>
-                    <li><a class="twitter" data-service="twitter" href="https://www.twitter.com/intent/tweet?url={{ .Permalink }}&amp;text=IRL Podcast: {{ .Title }} {{ .Scratch.Get "host" }}" data-link-type="social share" data-link-name="Twitter">Twitter</a></li>
+                    <li><a class="twitter" data-service="twitter" href="https://www.twitter.com/intent/tweet?url={{ .Permalink }}&amp;text=[a:web] Podcast: {{ .Title }} w/ @Firefox_DE" data-link-type="social share" data-link-name="Twitter">Twitter</a></li>
                     <li><a class="facebook" data-service="facebook" href="https://www.facebook.com/sharer/sharer.php?u={{ .Permalink }}" data-link-type="social share" data-link-name="Facebook">Facebook</a></li>
                     <li><a class="copylink" data-service="copylink" href="{{ .Permalink }}" data-link-type="social share" data-link-name="copylink" data-clipboard-target="#episode-url-input-{{ .Params.number }}">Copy Link</a></li>
                 </ul>
@@ -103,7 +97,7 @@
     <div class="modal-content-wrapper shownotes-modal-wrapper">
         <div class="episode-shownotes" id="episode-{{ .Params.number }}-shownotes">
             <p class="modal-copy">
-                Episode {{ .Params.number }} - {{ .Title }}
+                Folge {{ .Params.number }} - {{ .Title }}
             </p>
 
             {{/*

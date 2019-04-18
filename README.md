@@ -24,13 +24,13 @@ This probably won't happen often, but if needed, run:
 ## Pushing to dev
 
 1. Push your changes to the `dev` branch: `git push origin my-branch-name:dev`
-2. Test on `https://dev.irlpodcast.org`
+2. Test on `https://dev.awebpodcast.org`
 
 ## Pushing to stage
 
 Any merge to the `master` branch will automatically update the staging site:
 
-`https://stage.irlpodcast.org/`
+`https://stage.awebpodcast.org/`
 
 A notice will be posted in `#irlpodcast-notify` on Slack when the push has completed.
 
@@ -43,7 +43,7 @@ so she know's it's been successful.
 It is responsibility of the person who codes the episode to find someone to push
 if 6AM PT is too early for them. All members of MozMEAO are happy to do this.
 
-1. Verify all is good on [the staging site](https://stage.irlpodcast.org/)
+1. Verify all is good on [the staging site](https://stage.awebpodcast.org/)
   - If the episode was merged before the publish date it will not be visible on
   staging. You can see it on staging by either re-running the Jenkins job (if
   you have permission) or by merging a new pull request. If there are no

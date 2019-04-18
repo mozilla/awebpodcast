@@ -8,26 +8,29 @@
         <div class="content">
             <div id="intro-main">
                 <div id="site-logo">
-                    <img src="/images/irl-logo.png" srcset="/images/irl-logo-high-res.png 2x" alt="IRL">
+                    [a:web]
                 </div>
 
                 <div id="site-title">
-                    <h1>Because Online Life Is Real Life</h1>
+                    <h1>Der einzige Podcast übers Web, den du brauchst</h1>
                 </div>
 
                 <div id="site-intro">
                     <p>
-                        Host Manoush Zomorodi shares real stories of life online
-                        and real talk about the future of the Web.
+                        In dem unabhängigen Podcast [a:web] nehmen die
+                        Moderatorinnen Anja und Alice euch mit auf eine
+                        spannende Entdeckungsreise durch das Internet.
+                        Verständlich für alle und nie langweilig.
                     </p>
 
                     <p>
-                        IRL is an original podcast from Mozilla, maker of Firefox and always fighting for you.
+                        [a:web] ist ein Podcast von Firefox, dem Browser der auf
+                        deiner Seite ist. Firefox fights for you!
                     </p>
                 </div>
 
                 <section class="subscribe-links-wrapper">
-                    <h4>Subscribe:</h4>
+                    <h4>Abonnieren:</h4>
                     {{ partial "subscribe-links.html" (dict "subscribeLinksID" "subscribe-links-primary") }}
                 </section>
             </div>
@@ -39,7 +42,7 @@
             <ul id="episode-list">
             {{- range .Data.Pages -}}
                 {{ if eq .Type "episodes" }}
-                    {{ if eq (string .Params.season) "4" }}
+                    {{ if eq (string .Params.season) "1" }}
                     <li class="episode-list-item">
                         {{/* The dot context below passes the entire episode object */}}
                         {{ partial "episode-module.html" . }}
@@ -51,59 +54,14 @@
         </div>
     </section>
 
-    <section class="season-summaries">
-        <div class="content">
-            <h2>Season 3</h2>
-            <ul class="episode-summary-list">
-            {{- range .Data.Pages -}}
-                {{ if eq .Type "episodes" }}
-                    {{ if eq (string .Params.season) "3" }}
-                        {{/* The dot context below passes the entire episode object */}}
-                        {{ partial "episode-summary.html" . }}
-                    {{ end }}
-                {{ end }}
-            {{- end -}}
-            </ul>
-        </div>
-    </section>
-    <section class="season-summaries">
-        <div class="content">
-            <h2>Season 2</h2>
-            <ul class="episode-summary-list">
-            {{- range .Data.Pages -}}
-                {{ if eq .Type "episodes" }}
-                    {{ if eq (string .Params.season) "2" }}
-                        {{/* The dot context below passes the entire episode object */}}
-                        {{ partial "episode-summary.html" . }}
-                    {{ end }}
-                {{ end }}
-            {{- end -}}
-            </ul>
-        </div>
-    </section>
-    <section class="season-summaries">
-        <div class="content">
-            <h2>Season 1</h2>
-            <ul class="episode-summary-list">
-            {{- range .Data.Pages -}}
-                {{ if eq .Type "episodes" }}
-                    {{ if eq (string .Params.season) "1" }}
-                        {{/* The dot context below passes the entire episode object */}}
-                        {{ partial "episode-summary.html" . }}
-                    {{ end }}
-                {{ end }}
-            {{- end -}}
-            </ul>
-        </div>
-    </section>
     <div class="content">
         {{ partial "newsletter.html" . }}
     </div>
     <section id="more">
         <div class="content">
-            <h3>More on the IRL Podcast</h3>
+            <h3>Mehr über [a:web]</h3>
             <p>
-                <a href="https://blog.mozilla.org/internetcitizen/category/IRL/">Get the 411 on IRL with Mozilla’s Internet Citizen Blog</a>
+                <a href="https://blog.mozilla.org/internetcitizen/category/IRL/">Ein Tech-Podcast für Nicht-Techies: [a:web] von Firefox startet im Mai 2019</a>
             </p>
         </div>
     </section>
