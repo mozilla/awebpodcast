@@ -1,0 +1,34 @@
+stages:
+  - build
+  - push
+
+build site:
+  tags:
+    - meao
+  stage: build
+  script:
+    - bin/build.sh $CI_COMMIT_REF_NAME
+
+push dev:
+  tags:
+    - meao
+  stage: push
+  only: dev
+  script:
+    - bin/push-gh-pages.sh
+
+push stage:
+  tags:
+    - meao
+  stage: push
+  only: master
+  script:
+    - "cd release && aws s3 sync . s3://awebpodcast-stage --acl public-read --delete --profile awebpodcast"
+
+push prod:
+  tags:
+    - meao
+  stage: push
+  only: prod
+  script:
+    - "cd release && aws s3 sync . s3://awebpodcast --acl public-read --delete --profile awebpodcast"
