@@ -47,6 +47,7 @@
     {{ if eq (getenv "HUGO_ENV") "production" }}
         {{ partial "google-analytics.html" . }}
     {{ end }}
+
 </head>
 
 <body id="{{ block "bodyID" . }}home{{ end }}">
