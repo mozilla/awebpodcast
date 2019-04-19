@@ -12,7 +12,7 @@ push stage:
   only: master
   script:
     - bin/build.sh stage
-    - "cd release && aws s3 sync . s3://awebpodcast-stage --acl public-read --delete --profile awebpodcast"
+    - "cd release && aws s3 sync . s3://awebpodcast-stage --acl public-read --delete"
 
 push prod:
   tags:
@@ -20,4 +20,4 @@ push prod:
   only: prod
   script:
     - bin/build.sh prod
-    - "cd release && aws s3 sync . s3://awebpodcast --acl public-read --delete --profile awebpodcast"
+    - "cd release && aws s3 sync . s3://awebpodcast --acl public-read --delete"
