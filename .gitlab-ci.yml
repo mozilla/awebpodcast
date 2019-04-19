@@ -1,7 +1,8 @@
 push dev:
   tags:
     - meao
-  only: dev
+  only:
+    - dev
   script:
     - bin/build.sh dev
     - bin/push-gh-pages.sh
@@ -9,7 +10,8 @@ push dev:
 push stage:
   tags:
     - meao
-  only: master
+  only:
+    - master
   script:
     - bin/build.sh stage
     - "cd release && aws s3 sync . s3://awebpodcast-stage --acl public-read --delete"
@@ -17,7 +19,8 @@ push stage:
 push prod:
   tags:
     - meao
-  only: prod
+  only:
+    - prod
   script:
     - bin/build.sh prod
     - "cd release && aws s3 sync . s3://awebpodcast --acl public-read --delete"
