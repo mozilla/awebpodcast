@@ -34,7 +34,7 @@ docker run --rm --label=gulp \
 
 # -e HUGO_ENV=production : tell hugo to build a production-ready version of the site
 # ash -c "rm -rf..." : remove any old build artifacts and rebuild the site using the config matching the command line argument ($1)
-# chown 1001:1000 : make sure the resulting `release` directory is owned by gitlab-runner user
+# chown 1001:1001 : make sure the resulting `release` directory is owned by gitlab-runner user
 docker run --rm --label=hugo \
     --volume=$(pwd):/src \
     --volume=$(pwd)/release:/tmp/build \
