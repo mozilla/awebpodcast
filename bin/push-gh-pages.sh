@@ -11,5 +11,9 @@ git add release
 git commit -m "Generated from $GIT_COMMIT"
 # create a new branch named 'gh-pages-$GIT_COMMIT' with only the code from the /release folder
 git subtree split --prefix release -b gh-pages-$GIT_COMMIT
+# add github-mozmar-robot remote if it doesn't exist
+if [[ ! $(git remote) =~ github-mozmar-robot ]]; then
+    git remote add github-mozmar-robot github-mozmar-robot:mozilla/awebpodcast
+fi
 # push our bespoke branch to the gh-pages branch
-git push -f origin gh-pages-$GIT_COMMIT:gh-pages
+git push -f github-mozmar-robot gh-pages-$GIT_COMMIT:gh-pages
