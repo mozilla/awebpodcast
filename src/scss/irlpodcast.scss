@@ -142,28 +142,6 @@ ol {
     }
 }
 
-#mozilla-logo {
-    position: absolute;
-    right: 0;
-    top: 90px;
-    z-index: 2;
-
-    a {
-        @include background-size(27px 97px);
-        @include image-replaced();
-        background-image: url('/images/mozilla-logo.png');
-        background-repeat: no-repeat;
-        display: block;
-        height: 97px;
-        width: 27px;
-    }
-
-    @media #{$mq-tablet} {
-        left: 0;
-        right: auto;
-    }
-}
-
 .subscribe-links {
     li {
         margin-bottom: 10px;
