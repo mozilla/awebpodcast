@@ -1,14 +1,14 @@
 {{/* set episode-specific open graph info if viewing an individual episode */}}
 {{ if and (isset .Params "categories") (eq .Params.categories "episodes") }}
     {{ $.Scratch.Set "imageFolder" (printf "S0%sE0%s" (string .Params.season) (string .Params.seasonepisode) ) }}
-    {{ $.Scratch.Set "ogImage" (printf "/images/episodes/%s/share.png" (.Scratch.Get "imageFolder")) }}
+    {{ $.Scratch.Set "ogImage" (printf "/images/episodes/%s/share.jpg" (.Scratch.Get "imageFolder")) }}
     {{ $.Scratch.Set "ogImageWidth" "1100" }}
     {{ $.Scratch.Set "ogImageHeight" "619" }}
     {{ $.Scratch.Set "ogTitle" (printf "[a:web]: %s" .Params.ogTitle) }}
 {{ else }}
-    {{ $.Scratch.Set "ogImage" "/images/irl-logo-open-graph.png" }}
-    {{ $.Scratch.Set "ogImageWidth" "1200" }}
-    {{ $.Scratch.Set "ogImageHeight" "630" }}
+    {{ $.Scratch.Set "ogImage" "/images/irl-logo-open-graph.jpg" }}
+    {{ $.Scratch.Set "ogImageWidth" "1100" }}
+    {{ $.Scratch.Set "ogImageHeight" "619" }}
 {{ end }}
 
 <!DOCTYPE html>
