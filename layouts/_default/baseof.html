@@ -35,10 +35,9 @@
     <title>{{ .Page.Title | default .Site.Title }}</title>
     <meta name="description" content="{{ htmlEscape (.Page.Params.description | default .Site.Params.description | markdownify) | truncate 160 }}">
 
-    <meta name="apple-itunes-app" content="app-id=1247652431, affiliate-data=at=1010lbVy&amp;ct=mozilla_smart_banner">
+    <meta name="apple-itunes-app" content="app-id=1459862718&amp;ct=mozilla_smart_banner">
 
     <link rel="stylesheet" href="/css/{{ index .Site.Data.css.hash "irlpodcast.css" }}" />
-    <link rel="alternate" type="application/rss+xml" title="{{ htmlEscape .Site.Title }}" href="https://feeds.mozilla-podcasts.org/irl">
     <link rel="canonical" href="{{ .Permalink }}">
 
     <script src="/js/{{ index .Site.Data.js.hash "pre-render-min.js" }}"></script>

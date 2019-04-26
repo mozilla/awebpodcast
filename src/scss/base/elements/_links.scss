@@ -25,11 +25,7 @@ a {
     }
 
     &:focus,
-    &:visited:focus {
-        background-color: #00ff00;
-        color: $color-text-primary;
-    }
-
+    &:visited:focus,
     &:active,
     &:visited:active {
         background-color: transparent;

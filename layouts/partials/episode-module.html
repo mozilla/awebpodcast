@@ -10,10 +10,9 @@
     {{ $.Scratch.Set "imageFolder" (printf "S0%sE0%s" (string .Params.season) (string .Params.seasonepisode) ) }}
 {{ end }}
 
-{{ $.Scratch.Set "imagePath" (printf "episodes/%s/artwork.png" (.Scratch.Get "imageFolder")) }}
-{{ $.Scratch.Set "imagePathHighRes" (replace (.Scratch.Get "imagePath") ".png" "-high-res.png") }}
+{{ $.Scratch.Set "imagePath" (printf "episodes/%s/artwork.jpg" (.Scratch.Get "imageFolder")) }}
+{{ $.Scratch.Set "imagePathHighRes" (replace (.Scratch.Get "imagePath") ".jpg" "-high-res.jpg") }}
 {{ $.Scratch.Set "itunesTracking" (printf "episode%s" (string .Params.number)) }}
-{{ $.Scratch.Set "rpTracking" (printf "episode%s-modal" (string .Params.number)) }}
 
 
 <article class="episode" id="episode-{{ .Params.number }}">
@@ -41,9 +40,9 @@
 
     <div class="episode-player">
         <div class="episode-player-wrapper">
-            <iframe title="Jetzt {{ .Title }} hören." class="lazy-load" frameborder="0" height="200px" scrolling="no" seamless src="" data-src="https://hearthis.at/embed/{{ .Params.embed }}/transparent_black/?hcolor=&color=&style=2&block_size=2&block_space=1&background=1&waveform=0&cover=0&autoplay=0&css=" width="100%"></iframe>
+            <iframe title="Jetzt {{ .Title }} hören." class="lazy-load" frameborder="0" height="200px" scrolling="no" seamless src="" data-src="https://hearthis.at/embed/{{ .Params.embed }}/transparent_black/?hcolor=&color=&style=2&block_size=2&block_space=1&background=1&waveform=0&cover=1&autoplay=0&css=" width="100%"></iframe>
             <noscript>
-                <iframe title="Jetzt {{ .Title }} hören." frameborder="0" height="200px" scrolling="no" seamless src="https://hearthis.at/embed/{{ .Params.embed }}/transparent_black/?hcolor=&color=&style=2&block_size=2&block_space=1&background=1&waveform=0&cover=0&autoplay=0&css=" width="100%"></iframe>
+                <iframe title="Jetzt {{ .Title }} hören." frameborder="0" height="200px" scrolling="no" seamless src="https://hearthis.at/embed/{{ .Params.embed }}/transparent_black/?hcolor=&color=&style=2&block_size=2&block_space=1&background=1&waveform=0&cover=1&autoplay=0&css=" width="100%"></iframe>
             </noscript>
         </div>
     </div>
@@ -51,7 +50,7 @@
     <section class="subscribe-links-wrapper episode-view-single">
         <h4>Abonnieren:</h4>
 
-        {{ partial "subscribe-links.html" (dict "itunesTracking" (.Scratch.Get "itunesTracking") "rpTracking" (.Scratch.Get "rpTracking") "title" .Title) }}
+        {{ partial "subscribe-links.html" (dict "itunesTracking" (.Scratch.Get "itunesTracking") "title" .Title) }}
     </section>
 
     <div class="episode-description">
@@ -70,7 +69,7 @@
                 Abonniere [a:web] - Den einzigen Podcast übers Web, den du brauchst
             </p>
 
-            {{ partial "subscribe-links.html" (dict "itunesTracking" (.Scratch.Get "itunesTracking") "rpTracking" (.Scratch.Get "rpTracking") "title" .Title) }}
+            {{ partial "subscribe-links.html" (dict "itunesTracking" (.Scratch.Get "itunesTracking") "title" .Title) }}
         </div>
     </div>
 

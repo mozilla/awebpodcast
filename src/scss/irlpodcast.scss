@@ -70,7 +70,8 @@ ol {
 }
 
 #intro {
-    background: #000 url('/images/bg-intro.png') center center no-repeat;
+    background: #0a0120 url('/images/home-480.jpg') center center no-repeat;
+    background-size: cover;
     color: #fff;
     padding-top: 120px;
 
@@ -80,6 +81,7 @@ ol {
     }
 
     @media #{$mq-tablet} {
+        background-image: url('/images/home-1000.jpg');
         .content {
             padding-left: 40px;
             width: calc(100% - 40px);
@@ -87,10 +89,15 @@ ol {
     }
 
     @media #{$mq-desktop} {
+        background-image: url('/images/home-1400.jpg');
         .content {
             padding-left: 0;
             width: auto;
         }
+    }
+
+    @media #{$mq-desktop-wide} {
+        background-image: url('/images/home-2560.jpg');
     }
 }
 
@@ -169,7 +176,7 @@ ol {
         &:focus,
         &:focus img {
             background: #fff;
-            border-color: #00ff00;
+            border-color: #f808f8;
         }
 
         &:active,
