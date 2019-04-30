@@ -5,7 +5,7 @@
 @import '../includes/lib';
 
 #newsletter-wrapper {
-    background-color: #000;
+    background-color: #0a0120;
     background-position: top left;
     color: #fff;
     padding: 30px 20px;
@@ -37,12 +37,6 @@
 
     @media #{$mq-tablet} {
         padding: 40px;
-    }
-}
-
-#newsletter-inner-wrapper {
-    @media #{$mq-tablet} {
-        width: 450px;
     }
 }
 

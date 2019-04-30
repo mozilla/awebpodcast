@@ -1,3 +1,5 @@
+
+{{ if gt (len .Site.GoogleAnalytics) 0 }}
 <script>
     (function(Mozilla) {
         'use strict';
@@ -13,3 +15,4 @@
         }
     })(window.Mozilla);
 </script>
+{{ end }}

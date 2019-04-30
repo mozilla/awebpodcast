@@ -70,7 +70,8 @@ ol {
 }
 
 #intro {
-    background: #000 url('/images/bg-intro.png') center center no-repeat;
+    background: #0a0120 url('/images/home-480.jpg') center center no-repeat;
+    background-size: cover;
     color: #fff;
     padding-top: 120px;
 
@@ -80,6 +81,7 @@ ol {
     }
 
     @media #{$mq-tablet} {
+        background-image: url('/images/home-1000.jpg');
         .content {
             padding-left: 40px;
             width: calc(100% - 40px);
@@ -87,10 +89,15 @@ ol {
     }
 
     @media #{$mq-desktop} {
+        background-image: url('/images/home-1400.jpg');
         .content {
             padding-left: 0;
             width: auto;
         }
+    }
+
+    @media #{$mq-desktop-wide} {
+        background-image: url('/images/home-2560.jpg');
     }
 }
 
@@ -142,46 +149,17 @@ ol {
     }
 }
 
-#mozilla-logo {
-    position: absolute;
-    right: 0;
-    top: 90px;
-    z-index: 2;
-
-    a {
-        @include background-size(27px 97px);
-        @include image-replaced();
-        background-image: url('/images/mozilla-logo.png');
-        background-repeat: no-repeat;
-        display: block;
-        height: 97px;
-        width: 27px;
-    }
-
-    @media #{$mq-tablet} {
-        left: 0;
-        right: auto;
-    }
-}
-
 .subscribe-links {
     li {
+        display: block;
         margin-bottom: 10px;
     }
 
     a {
-        align-items: center;
-        background: #fff;
-        background-clip: padding-box;
         border: 2px solid transparent;
         border-radius: 8px;
         box-sizing: border-box;
-        display: flex;
-        height: 34px;
-        justify-content: center;
-        padding: 3px 10px;
-        text-align: center;
-        width: 133px;
+        display: inline-block;
 
         &:hover,
         &:hover img {
@@ -189,55 +167,17 @@ ol {
         }
 
         &:focus,
-        &:focus img {
-            background: #fff;
-            border-color: #00ff00;
-        }
-
-        &:active,
+        &:focus img,
         &:active img {
-            border-color: #f8f8f8;
+            border-color: #f808f8;
+            outline: 0;
         }
     }
 
     img {
         display: block;
-        height: 26px;
+        height: 40px;
         margin: 0 auto;
-    }
-
-    .subscribe-link-google,
-    .subscribe-link-apple {
-        border: 0;
-        padding: 0;
-
-        img {
-            border: 2px solid transparent;
-            border-radius: 9px;
-            height: 34px;
-        }
-    }
-
-    .subscribe-link-radiopublic img {
-        height: 23px;
-    }
-
-    // the only non-image subscribe link needs extra styling
-    .rss-badge {
-        display: inline-block;
-        line-height: 1.3;
-
-        &:before {
-            @include background-size(15px 15px);
-            background-image: url('/images/icon-subscribe.svg');
-            background-repeat: no-repeat;
-            content: '';
-            display: block;
-            float: left;
-            height: 20px;
-            margin: 4px 8px 0 0;
-            width: 15px;
-        }
     }
 }
 
@@ -268,7 +208,7 @@ ol {
 
     @media #{$mq-tablet} {
         max-width: none;
-        padding: 100px 0 70px;
+        padding: 70px 0 70px;
 
         .subscribe-links {
             margin-top: 0;
@@ -316,6 +256,7 @@ ol {
 
     .episode-image {
         margin-bottom: 10px;
+        background-color: #300E4B;
 
         img {
             display: block;
@@ -394,12 +335,6 @@ ol {
     .episode-view-list {
         display: none;
     }
-
-    @media #{$mq-tablet} {
-        .episode-link-share {
-            margin-right: 40px;
-        }
-    }
 }
 
 // customizations for .episode when in a list (like on the home page)
@@ -458,11 +393,11 @@ ol {
 
         @media #{$mq-tablet} {
             display: flex;
-            justify-content: space-between;
+            justify-content: flex-end;
         }
 
         @media #{$mq-desktop} {
-            justify-content: space-between;
+            justify-content: flex-end;
         }
     }
 
@@ -494,7 +429,11 @@ ol {
 
 .episode-links {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
+
+    li {
+        margin-left: 20px;
+    }
 
     a:before {
         background-position: left bottom;
@@ -553,7 +492,7 @@ a.episode-shownotes-link {
     }
 
     .episode-player-wrapper {
-        background: #f5f5f5;
+        background: #424579;
         border-radius: 4px;
         height: 200px;
         width: 100%;
