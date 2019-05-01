@@ -14,11 +14,11 @@ Firefox macht diesen Podcast, weil wir daran glauben, dass Menschen ein Recht au
 
 ### Die Moderatorinnen
 
-Alice moderiert seit Mai 2019 zusammen mit ihrer lieben Kollegin Anja den Firefox Podcast [a:web]. Hauptamtlich ist sie für die europaweite Medien- und Öffentlichkeitsarbeit rund um Firefox Produkte, Kampagnen und die Marke verantwortlich. Neben Kaffee, schlechten Filmen und fragwürdiger Musik sind Digitalthemen ihre große Leidenschaft, die die Kommunikations- und Medienwissenschaftlerin mit ihrer Arbeit bei Mozilla praktischerweise auch zum Beruf machen durfte.
+"Alice moderiert seit Mai 2019 zusammen mit ihrer lieben Kollegin Anja den Firefox Podcast [a:web]. Hauptamtlich ist sie für die europaweite Medien- und Öffentlichkeitsarbeit rund um Firefox Produkte, Kampagnen und die Marke verantwortlich. Neben Kaffee, schlechten Filmen und fragwürdiger Musik sind Digitalthemen ihre große Leidenschaft, die die Kommunikations- und Medienwissenschaftlerin mit ihrer Arbeit bei Mozilla praktischerweise auch zum Beruf machen durfte.
 
-Anja Fordon ist Literatur- und Kulturwissenschaftlerin, Open-Web-Enthusiastin und Bücher-Liebhaberin. Die multimedialen, gesellschaftlichen Veränderungen, die alle Bereiche des Lebens durchdringen und die schlicht Digitalisierung genannt wird: darüber denkt sie viel nach. Wenn sie das gerade nicht tut, schmeißt sie gerne mit Farbe um sich und liest unendlich viele Bücher."
+Anja Fordon ist Literatur- und Kulturwissenschaftlerin, Open-Web-Enthusiastin und Bücher-Liebhaberin. Die multimedialen, gesellschaftlichen Veränderungen, die alle Bereiche des Lebens durchdringen und die schlicht Digitalisierung genannt werden: darüber denkt sie viel nach. Wenn sie das gerade nicht tut, schmeißt sie gerne mit Farbe um sich und liest unendlich viele Bücher.
 
-### Folifox
+### Folivox
 
 [a:web] wird produziert von Folivox. Hier treffen 20 Jahre journalistische Erfahrung auf modernes Storytelling. So erschaffen wir Hörwelten, die von Anfang an zum Eintauchen einladen und bis zum Ende nichts von ihrer Spannung verlieren. Wir wollen, dass jeder Podcast zum Kino für die Ohren wird.
 
