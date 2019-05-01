@@ -9,7 +9,7 @@ Edit the `.scss` and `.js` files in the `/src` directory (*NOT* in `/static`).
 
 ## Adding new episodes
 
-1. `docker exec irlpodcast_hugo_1 hugo new episodes/201X-XX-XX-SXXEXX-episode-title-here.md`
+1. `docker exec awebpodcast_hugo_1 hugo new episodes/201X-XX-XX-SXXEXX-episode-title-here.md`
 
 You can create this file by hand in the filesystem, but the above command will use the
 `archetypes/episodes.md` template to populate all the necessary front matter, saving
@@ -19,7 +19,7 @@ you precious, precious time.
 
 This probably won't happen often, but if needed, run:
 
-1. `docker exec irlpodcast_hugo_1 hugo new somepage.md`
+1. `docker exec awebpodcast_hugo_1 hugo new somepage.md`
 
 ## Pushing to dev
 
@@ -37,8 +37,7 @@ A notice will be posted in `#irlpodcast-notify` on Slack when the push has compl
 ## Pushing to production
 
 Episode deployments typically happen at 6AM PT on the publish date. Please
-post in #irl-site-redesign (private channel) on Slack, or DM @michaela when you push
-so she know's it's been successful.
+post in #a-web-podcast-page (private channel) on Slack.
 
 It is responsibility of the person who codes the episode to find someone to push
 if 6AM PT is too early for them. All members of MozMEAO are happy to do this.
