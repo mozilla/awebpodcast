@@ -1,5 +1,5 @@
 ---
-date: 2019-05-07T00:00:00-00:00
+date: 2019-05-06T00:00:00-00:00
 title: "Das Web wählt mit"
 ogtitle: "Das Web wählt mit"
 description: "[a:web] der Tech-Podcast für alle. Für dich. Deine Freunde. Deine Mutter. Das Web und die Straße. Präsentiert wird [a:web] von Firefox – immer auf deiner Seite und für Menschen, statt für Profit."
