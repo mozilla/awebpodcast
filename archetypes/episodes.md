@@ -1,5 +1,5 @@
 ---
-date: {{ substr .Name 0 10 }}T04:55:00-08:00
+date: {{ substr .Name 0 10 }}T00:00:00-00:00
 title: "{{ replace (substr .Name 18) "-" " " | title }}"
 ogtitle: "{{ replace (substr .Name 18) "-" " " | title }}"
 description: ""
