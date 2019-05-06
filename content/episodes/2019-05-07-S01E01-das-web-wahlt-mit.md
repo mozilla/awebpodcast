@@ -8,7 +8,7 @@ ogdescription: "Beeinflusst das Internet unsere Wahlen? Die neue Folge von [a:we
 season: 1
 seasonepisode: 1
 url: /staffel1/folge1/
-embed: ""
+embed: "3063905"
 categories: "episodes"
 shownotes: |
     Wir haben in der Folge davon gesprochen, welche Tools und Maßnahmen dir helfen können, dich online vor Misinformation und Manipulation zu schützen. Gerade jetzt, so kurz vor der Europawahl ist das besonders wichtig.
@@ -86,7 +86,7 @@ transcript: |
 
     **Alice:** Man könnte jetzt sagen: Ein paar Facebook-Anzeigen, was soll's? Das Problem dabei ist, dass es heute Möglichkeiten zur Wahlbeeinflussung, an die noch vor wenigen Jahren niemand gedacht hat. Falsche oder irreführende Informationen lassen sich schneller und zielgerichteter verbreiten denn je. Die Politik steht dieser Entwicklung bisher noch relativ hilflos gegenüber.
 
-    Tankred Schipanski ist der digitalpolitische Sprecher der CDU/CSU-Fraktion im Bundestag. Hier wird die Problematik schon länger besprochen. Am Rande einer Anhörung sagte er Folgendes:** 
+    Tankred Schipanski ist der digitalpolitische Sprecher der CDU/CSU-Fraktion im Bundestag. Hier wird die Problematik schon länger besprochen. Am Rande einer Anhörung sagte er Folgendes:**
 
     **Tankred Schipanski:** Ich glaube, wie in der realen Welt ist auch das Internet kein rechtsfreier Raum. Von daher haben wir 'ne ganz klassische Medienregulierung in den klassischen Medien. Wir haben, glaub' ich, sehr intensiv diskutiert, wie muss ich das auch auf soziale Netzwerke oder insbesondere auch die Plattformen ausdehnen. Die fallen gegenwärtig faktisch in eine Regulierungslücke, beziehungsweise sind bewusst noch nicht reguliert. Wir merken aber, dass zunehmend gerade soziale Netzwerke und Plattformen meinungsbildende Relevanz haben. Und wenn man dies hat, dann ist das deutsche Recht ganz klar: Es muss auch hier Vielfalt gesichert werden; es muss Regulierung stattfinden.
 
@@ -100,9 +100,9 @@ transcript: |
 
     Wer diese Anzeigen schaltet, wie viel dafür bezahlt wird, und warum gerade du das zu sehen kriegst – all das behalten die Plattformen in der Regel für sich.
 
-    **Alice:** Die Politik arbeitet schon unter Hochdruck daran, hier für mehr Transparenz zu sorgen. Darauf musst du aber nicht warten. Es gibt ein paar ganz einfache Möglichkeiten, wie du dich heute schon vor Manipulation im Netz schützen kannst. Du kannst zum Beispiel ganz einfach im Privaten Modus surfen. So werden viele dieser Tracker geblockt, sodass viel weniger Daten über Dein Online-Verhalten gesammelt werden können. 
+    **Alice:** Die Politik arbeitet schon unter Hochdruck daran, hier für mehr Transparenz zu sorgen. Darauf musst du aber nicht warten. Es gibt ein paar ganz einfache Möglichkeiten, wie du dich heute schon vor Manipulation im Netz schützen kannst. Du kannst zum Beispiel ganz einfach im Privaten Modus surfen. So werden viele dieser Tracker geblockt, sodass viel weniger Daten über Dein Online-Verhalten gesammelt werden können.
 
-    Speziell für Facebook bietet Firefox die Browser-Erweiterung Facebook Container an. So wird es Facebook erschwert, deine Aktivitäten online zu verfolgen. 
+    Speziell für Facebook bietet Firefox die Browser-Erweiterung Facebook Container an. So wird es Facebook erschwert, deine Aktivitäten online zu verfolgen.
 
     Das, was du wissentlich auf Facebook teilst, kann weiterhin von Werbetreibenden genutzt werden – alles andere bleibt deine Privatsache.
 
@@ -158,7 +158,7 @@ transcript: |
 
     **Anja:** Beeinflusst das Internet unsere Wahlen? Die Antwort lautet: Ja. Und nein. Das Internet ist ja nicht irgendeine Kraft, die von außen auf uns einwirkt. Das Internet, das sind wir. Das Internet hat unser Leben beschleunigt und gleichzeitig unsere Welt vergrößert. Es war noch nie so einfach, am politischen Geschehen teilzunehmen. Es war aber auch noch nie so komplex. Sich raushalten? Das ist eigentlich keine Option mehr. Online sind wir nämlich alle permanent im Visier von Meinungsmachern und solchen, die es gern wären.
 
-    Wir werden beeinflusst, lassen uns beeinflussen, nehmen selbst Einfluss. Was wir daraus machen, liegt an uns. Wir müssen uns fragen: Woher kriegen wir unsere Informationen? Wie glaubwürdig sind sie, und wo wollen wir überhaupt hin damit? Erst, wenn wir diese Fragen für uns selbst beantwortet haben, können wir die Möglichkeiten, die das Internet uns eröffnet, voll ausschöpfen. 
+    Wir werden beeinflusst, lassen uns beeinflussen, nehmen selbst Einfluss. Was wir daraus machen, liegt an uns. Wir müssen uns fragen: Woher kriegen wir unsere Informationen? Wie glaubwürdig sind sie, und wo wollen wir überhaupt hin damit? Erst, wenn wir diese Fragen für uns selbst beantwortet haben, können wir die Möglichkeiten, die das Internet uns eröffnet, voll ausschöpfen.
 
     Deshalb kämpft Firefox auch weiterhin für ein freies und offenes Netz, das wir alle gleichberechtigt nutzen können. Wir hoffen, dass wir mit diesem Podcast auch einen Teil dazu beitragen können.
 
@@ -166,5 +166,5 @@ transcript: |
 
     **Alice:** Früher, als das Netz noch jung war, hieß es: Die Stars von morgen werden aus dem Internet gekommen. Un ja, so war es dann auch. Vielleicht – nein, ganz sicher sogar – kommen ja die Politikerinnen und Politiker von morgen aus dem Netz. Da wäre heute doch eigentlich ein guter Tag, um anzufangen.
 
-    **Anja:** … und ich bin Anja. Und wenn ihr mögt, dann hören wir uns in ein paar Wochen wieder hier zu einer neuen Folgen von [a:web], dem Podcast von Firefox. Wir sprechen das über die Kids on the Web. Aber auch über ihre Eltern. Wir werden mit der Künstlerin Toyah Diebel sprechen, die die Aktion #DeinKindAuchNicht ins Leben gerufen hat. Das wird gut. 
+    **Anja:** … und ich bin Anja. Und wenn ihr mögt, dann hören wir uns in ein paar Wochen wieder hier zu einer neuen Folgen von [a:web], dem Podcast von Firefox. Wir sprechen das über die Kids on the Web. Aber auch über ihre Eltern. Wir werden mit der Künstlerin Toyah Diebel sprechen, die die Aktion #DeinKindAuchNicht ins Leben gerufen hat. Das wird gut.
 ---
