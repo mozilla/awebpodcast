@@ -11,21 +11,21 @@ url: /staffel1/folge1/
 embed: "3063905"
 categories: "episodes"
 shownotes: |
-    Wir haben in der Folge davon gesprochen, welche Tools und Maßnahmen dir helfen können, dich online vor Misinformation und Manipulation zu schützen. Gerade jetzt, so kurz vor der Europawahl ist das besonders wichtig.
+    Wir haben in der Folge davon gesprochen, welche Tools und Maßnahmen dir helfen können, dich online vor Misinformation und Manipulation zu schützen. Gerade jetzt, so kurz vor der Europawahl, ist das besonders wichtig.
 
-    Firefox fights for you! Und deswegen haben wir für dich eine ganze Website voller Informationen rund um die Wahl, Online-Trackingund “political Ad-Targeting“ zusammengestellt: [http://mzl.la/EU-Wahl](http://mzl.la/EU-Wahl )
+    Firefox fights for you! Und deswegen haben wir für dich eine ganze Website voller Informationen rund um die Wahl, Online-Trackingund “political Ad-Targeting“ zusammengestellt: [http://mzl.la/EU-Wahl](http://mzl.la/EU-Wahl)
 
     Zum Facebook Container geht es hier entlang: [https://mzl.la/2Fcu07J](https://mzl.la/2Fcu07J)
 
-    Dominik Kis ist Mit-Initiator von #SaveTheInternet. Hinter savetheinternet.info steht eine große und vielfältige Gruppe von Menschen, die alle das gleiche Ziel haben: das Internet zu retten. Sie handeln völlig unparteiisch und distanzieren sich formal von allen politischen Orientierungen. Mehr Infos findet ihr hier: [https://savetheinternet.info/](https://savetheinternet.info/)
+    Dominic Kis ist Mit-Initiator von #SaveTheInternet. Hinter savetheinternet.info steht eine große und vielfältige Gruppe von Menschen, die alle das gleiche Ziel haben: das Internet zu retten. Sie handeln völlig unparteiisch und distanzieren sich formal von allen politischen Orientierungen. Mehr Infos findet ihr hier: [https://savetheinternet.info/](https://savetheinternet.info/)
 
     Hildegard Bentele ist die Spitzenkandidatin der Berliner CDU für die Europawahl 2019. Bentele ist Politologin, von Beruf Diplomatin und sitzt seit 2011 im Berliner Abgeordnetenhaus. Dort wirkt sie als Vize-Fraktionschefin und Bildungsexpertin der Fraktion.
 
-    Tankred Schipansk ist digitalpolitischer Sprecher der CDU/CSU-Fraktion im Bundestag. Laut einer Stellungnahme findet er: “Ein besserer Schutz von Urheberrechten darf nicht dazu führen, dass das freie Internet eingeschränkt, also letztlich das Hochladen von urheberrechtlich zulässigen Inhalten mit der Folge blockiert wird, dass damit Einschränkungen für die freie Meinungsäußerung verbunden sind.”
+    Tankred Schipanski ist digitalpolitischer Sprecher der CDU/CSU-Fraktion im Bundestag. Laut einer Stellungnahme findet er: “Ein besserer Schutz von Urheberrechten darf nicht dazu führen, dass das freie Internet eingeschränkt, also letztlich das Hochladen von urheberrechtlich zulässigen Inhalten mit der Folge blockiert wird, dass damit Einschränkungen für die freie Meinungsäußerung verbunden sind.”
 
-    Andreas Gebhard organisiert seit 2007 die re:pùblica, Europas größte Veranstaltung für die digitale Gesellschaft. Als Politiker und Unternehmer blickt Gebhard sowohl in der politischen als auch in der digitalen Welt auf eine lange Karriere zurück. Er war Pressesprecher der Grünen und des Vereins Linuxtag.
+    Andreas Gebhard organisiert seit 2007 die re:publica, Europas größte Veranstaltung für die digitale Gesellschaft. Als Politiker und Unternehmer blickt Gebhard sowohl in der politischen als auch in der digitalen Welt auf eine lange Karriere zurück. Er war Pressesprecher der Grünen und des Vereins Linuxtag.
 
-    Wir freuen uns schon sehr aufs nächste Mal. Wenn ihr es auch kaum erwarten könnt, schaut euch schon mal die Arbeit von Tonya Diebel an, unserem nächsten Gast.
+    Wir freuen uns schon sehr aufs nächste Mal. Wenn ihr es auch kaum erwarten könnt, schaut euch schon mal die Arbeit von Toyah Diebel an, unserem nächsten Gast.
 transcript: |
     **Dominic Kis:** “Am Anfang […], da haben wir uns tierisch gefreut, als wir 50.000 Unterschriften auf der Petition hatten und haben, glaub' ich, 'ne Pressemitteilung an alle raus geschickt (lacht), die uns dann relativ zügig als Spam markiert haben und wir dann 'ne Zeit lang keine E-Mails mehr an die schreiben durften.”
 
