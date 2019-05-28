@@ -3,8 +3,7 @@ date: 2019-05-06T00:00:00-00:00
 title: "Das Web wählt mit"
 ogtitle: "Das Web wählt mit"
 description: "[a:web] der Tech-Podcast für alle. Für dich. Deine Freunde. Deine Mutter. Das Web und die Straße. Präsentiert wird [a:web] von Firefox – immer auf deiner Seite und für Menschen, statt für Profit."
-ogdescription: "Beeinflusst das Internet unsere Wahlen? Die neue Folge von [a:web] spricht u.a. mit @uploadfilter, @hildebentele und dem Gründer der @republica. Denn: Das Internet, das sind wir. Reinhören & Teilen! Denn bald ist #Europawahl!
- w/ @firefox_DE"
+ogdescription: "Beeinflusst das Internet unsere Wahlen? Die neue Folge von [a:web] spricht u.a. mit @uploadfilter, @hildebentele und dem Gründer der @republica. Denn: Das Internet, das sind wir. Reinhören & Teilen! Denn bald ist #Europawahl! w/ @firefox_DE"
 season: 1
 seasonepisode: 1
 url: /staffel1/folge1/
