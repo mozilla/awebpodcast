@@ -1,5 +1,5 @@
 ---
-date: 2019-06-25T00:00:00-00:00
+date: 2019-06-24T00:00:00-00:00
 title: "The Futures of Webs"
 ogtitle: "The Futures of Webs"
 description: |
