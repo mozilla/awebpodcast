@@ -1,7 +1,7 @@
 ---
 date: 2019-08-26T00:00:00-00:00
-title: "Die WächterInnen des Webs"
-ogtitle: "Die WächterInnen des Webs"
+title: "Wer wacht übers Web"
+ogtitle: "Wer wacht übers Web"
 description: "Triff die Menschen, die deinen Social Media Account aufräumen. What? Jetzt das Staffelfinale von aweb hören!"
 ogdescription: "Delete. Ignore. Delete. - Das ist das Vokabular, das unsere #digitale Realität bestimmt. Die neue Folge #awebpodcast erkundet die #Schattenindustrie der #ContentModeration, also die Welt hinter Facebook und Co. Jetzt hören!"
 season: 1
