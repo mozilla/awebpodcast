@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Seasons on [a:web]: Der einzige Podcast übers Web, den du brauchst</title>
+    <link>https://dev.awebpodcast.org/seasons/</link>
+    <description>Recent content in Seasons on [a:web]: Der einzige Podcast übers Web, den du brauchst</description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+	<atom:link href="https://dev.awebpodcast.org/seasons/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>https://dev.awebpodcast.org/staffel1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://dev.awebpodcast.org/staffel1/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

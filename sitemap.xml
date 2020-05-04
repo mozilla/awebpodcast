@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://dev.awebpodcast.org/staffel1/folge8/</loc>
+    <lastmod>2020-03-31T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dev.awebpodcast.org/staffel1/folge7/</loc>
+    <lastmod>2019-12-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dev.awebpodcast.org/staffel1/folge6/</loc>
+    <lastmod>2019-08-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dev.awebpodcast.org/staffel1/folge5/</loc>
+    <lastmod>2019-08-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dev.awebpodcast.org/staffel1/folge4/</loc>
+    <lastmod>2019-07-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dev.awebpodcast.org/staffel1/folge3/</loc>
+    <lastmod>2019-06-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dev.awebpodcast.org/staffel1/folge2/</loc>
+    <lastmod>2019-05-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dev.awebpodcast.org/staffel1/folge1/</loc>
+    <lastmod>2019-05-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dev.awebpodcast.org/staffel1/folge0/</loc>
+    <lastmod>2019-04-26T04:55:00-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dev.awebpodcast.org/uber/</loc>
+    <lastmod>2019-04-11T00:00:01+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dev.awebpodcast.org/staffel1/</loc>
+  </url>
+  
+  <url>
+    <loc>https://dev.awebpodcast.org/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://dev.awebpodcast.org/episodes/</loc>
+    <lastmod>2020-03-31T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://dev.awebpodcast.org/categories/episodes/</loc>
+    <lastmod>2020-03-31T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://dev.awebpodcast.org/seasons/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://dev.awebpodcast.org/tags/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://dev.awebpodcast.org/</loc>
+    <lastmod>2020-03-31T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+</urlset>

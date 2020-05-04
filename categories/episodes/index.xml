@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Episodes on [a:web]: Der einzige Podcast übers Web, den du brauchst</title>
+    <link>https://dev.awebpodcast.org/categories/episodes/</link>
+    <description>Recent content in Episodes on [a:web]: Der einzige Podcast übers Web, den du brauchst</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Tue, 31 Mar 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://dev.awebpodcast.org/categories/episodes/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Bonus: Hass im Web</title>
+      <link>https://dev.awebpodcast.org/staffel1/folge8/</link>
+      <pubDate>Tue, 31 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://dev.awebpodcast.org/staffel1/folge8/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Bonus: Im Netz Der Tracker</title>
+      <link>https://dev.awebpodcast.org/staffel1/folge7/</link>
+      <pubDate>Wed, 18 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://dev.awebpodcast.org/staffel1/folge7/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Wer wacht übers Web</title>
+      <link>https://dev.awebpodcast.org/staffel1/folge6/</link>
+      <pubDate>Mon, 26 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://dev.awebpodcast.org/staffel1/folge6/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Das dunkle Web</title>
+      <link>https://dev.awebpodcast.org/staffel1/folge5/</link>
+      <pubDate>Mon, 05 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://dev.awebpodcast.org/staffel1/folge5/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Web of Fame</title>
+      <link>https://dev.awebpodcast.org/staffel1/folge4/</link>
+      <pubDate>Mon, 15 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://dev.awebpodcast.org/staffel1/folge4/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The Futures of Webs</title>
+      <link>https://dev.awebpodcast.org/staffel1/folge3/</link>
+      <pubDate>Mon, 24 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://dev.awebpodcast.org/staffel1/folge3/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>New Kids on the Web</title>
+      <link>https://dev.awebpodcast.org/staffel1/folge2/</link>
+      <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://dev.awebpodcast.org/staffel1/folge2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Das Web wählt mit</title>
+      <link>https://dev.awebpodcast.org/staffel1/folge1/</link>
+      <pubDate>Mon, 06 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://dev.awebpodcast.org/staffel1/folge1/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Enter...[a:web]</title>
+      <link>https://dev.awebpodcast.org/staffel1/folge0/</link>
+      <pubDate>Fri, 26 Apr 2019 04:55:00 -0800</pubDate>
+      
+      <guid>https://dev.awebpodcast.org/staffel1/folge0/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
